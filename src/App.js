@@ -3,15 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [isActive, setIsActive] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsActive(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsActive(false);
-  };
   return (
     <div className="App">
       <>
@@ -4868,165 +4860,7 @@ function App() {
 {/* ####################### */}
 
 
-<div className='flex nav-header'>
-        <div className='scand-header flex'>
-          <a href=""><img src="../public/1690388247Cadillac-Escalade-Black-front-side.webp" alt="" width={200} height={70} /></a>
-          <ul className='flex ul-par' style={{ gap: "35px" }}>
-            <li><a href="">Home</a></li>
-            <li
-              className='all-brand'
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              All Brands
-            </li>
-            <li><a href="">Special Offers</a></li>
-            <li><a href="">Categories</a></li>
-            <li><a href="">Locations</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact Us</a></li>
-          </ul>
-        </div>
-        <button className='icon-menu' />
-      </div>
 
-      <div
-        className={`image-paner ${isActive ? 'active' : ''}`}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 bg-background">
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Nissan"
-              alt="Nissan"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">25 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Chevrolet"
-              alt="Chevrolet"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">21 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Ford"
-              alt="Ford"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">14 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Dodge"
-              alt="Dodge"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">14 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Mercedes"
-              alt="Mercedes"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">43 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Mini Cooper"
-              alt="Mini Cooper"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">5 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=BMW"
-              alt="BMW"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">16 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Audi"
-              alt="Audi"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">14 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Infiniti"
-              alt="Infiniti"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">1 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Range Rover"
-              alt="Range Rover"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">21 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Lamborghini"
-              alt="Lamborghini"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">19 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Ferrari"
-              alt="Ferrari"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">10 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Rolls Royce"
-              alt="Rolls Royce"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">14 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Porsche"
-              alt="Porsche"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">6 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Bentley"
-              alt="Bentley"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">6 Cars</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="https://openui.fly.dev/openui/24x24.svg?text=Cadillac"
-              alt="Cadillac"
-              className="h-12 w-12"
-            />
-            <span className="text-muted-foreground">3 Cars</span>
-          </div>
-        </div>
-      </div>
 
 
 {/* 3############################ */}
@@ -5419,7 +5253,7 @@ function App() {
             <li>
               <a
                 href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 aria-label="WhatsApp Inquiry"
               >
                 <svg className="svgicon whatsapp-icon">
@@ -5430,7 +5264,10 @@ function App() {
             </li>
             {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
             <li>
-              <a href="tel:+971502299948" aria-label="Call Us Inquiry">
+              <a href="tel:+971502299948" aria-label="Call Us Inquiry" 
+                target="_blank" rel="noopener noreferrer"
+                >
+                
                 <svg className="svgicon phone-icon">
                   <use xlinkHref="#phone-icon" />
                 </svg>
@@ -5614,6 +5451,8 @@ function App() {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                target="_blank" rel="noopener noreferrer"
+
                             >
                               <img
                                 className="mainimg"
@@ -5630,6 +5469,8 @@ function App() {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                target="_blank" rel="noopener noreferrer"
+
                             >
                               <img
                                 className="mainimg"
@@ -5646,6 +5487,8 @@ function App() {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                target="_blank" rel="noopener noreferrer"
+
                             >
                               <img
                                 className="mainimg"
@@ -5695,6 +5538,8 @@ function App() {
                         <a
                           aria-label=""
                           href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                target="_blank" rel="noopener noreferrer"
+
                         >
                           <h3>Infiniti Qx80 Black</h3>
                         </a>
@@ -5797,6 +5642,8 @@ function App() {
                         <li>
                           <a
                             href="tel:+971502299948"
+                target="_blank" rel="noopener noreferrer"
+
                             aria-label="Call Us Inquiry"
                           >
                             <svg className="svgicon phone-icon">
@@ -5837,6 +5684,8 @@ function App() {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
+                target="_blank" rel="noopener noreferrer"
+
                             >
                               <img
                                 className="mainimg"
@@ -6084,6 +5933,9 @@ flashsalethumb
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
+                target="_blank" rel="noopener noreferrer"
+
+
                             >
                               <img
                                 className="mainimg"
@@ -6093,6 +5945,7 @@ flashsalethumb
                                 height={166}
                                 alt="Infiniti Qx80 4"
                                 title="Infiniti Qx80 4"
+
                               />
                             </a>
                           </div>
@@ -6100,6 +5953,8 @@ flashsalethumb
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
+                target="_blank" rel="noopener noreferrer"
+
                             >
                               <img
                                 className="mainimg"

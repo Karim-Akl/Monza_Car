@@ -1,6 +1,17 @@
+import React, { useState } from 'react';
+// import { Link } from 'react';
 import './App.css';
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsActive(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsActive(false);
+  };
   return (
     <div className="App">
       <>
@@ -17,7 +28,7 @@ function App() {
                 </svg>
               </icon>
               <a aria-label="" href="tel:+971502299948">
-                +971 50 229 9948
+                +201093378681
               </a>
             </li>
             {/* <li><icon><svg class="svgicon phone-icon"><use xlink:href="#phone-icon"></use></svg></icon><a aria-label="" class="convcall-pop" href="javascript:void(0)" data-href="tel:+971502299948">+971 50 229 9948</a></li> */}
@@ -32,7 +43,7 @@ function App() {
                 aria-label=""
                 href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
               >
-                +971 50 229 9948
+                +201093378681
               </a>
             </li>
             {/* <li><icon><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg></icon><a target="_self" aria-label="" class="convwhatsapp-pop" href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi,&nbsp;I'm&nbsp;contacting&nbsp;you&nbsp;through&nbsp;fastercars.ae&nbsp;I'd&nbsp;like&nbsp;to&nbsp;inquire&nbsp;about&nbsp;a&nbsp;car&nbsp;listed&nbsp;on&nbsp;your&nbsp;website">+971 50 229 9948</a></li> */}
@@ -4854,6 +4865,171 @@ function App() {
     </div>
     {/* Header Bottom */}
   </header>
+{/* ####################### */}
+
+
+<div className='flex nav-header'>
+        <div className='scand-header flex'>
+          <a href=""><img src="../public/1690388247Cadillac-Escalade-Black-front-side.webp" alt="" width={200} height={70} /></a>
+          <ul className='flex ul-par' style={{ gap: "35px" }}>
+            <li><a href="">Home</a></li>
+            <li
+              className='all-brand'
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              All Brands
+            </li>
+            <li><a href="">Special Offers</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <button className='icon-menu' />
+      </div>
+
+      <div
+        className={`image-paner ${isActive ? 'active' : ''}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 bg-background">
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Nissan"
+              alt="Nissan"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">25 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Chevrolet"
+              alt="Chevrolet"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">21 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Ford"
+              alt="Ford"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">14 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Dodge"
+              alt="Dodge"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">14 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Mercedes"
+              alt="Mercedes"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">43 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Mini Cooper"
+              alt="Mini Cooper"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">5 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=BMW"
+              alt="BMW"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">16 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Audi"
+              alt="Audi"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">14 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Infiniti"
+              alt="Infiniti"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">1 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Range Rover"
+              alt="Range Rover"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">21 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Lamborghini"
+              alt="Lamborghini"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">19 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Ferrari"
+              alt="Ferrari"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">10 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Rolls Royce"
+              alt="Rolls Royce"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">14 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Porsche"
+              alt="Porsche"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">6 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Bentley"
+              alt="Bentley"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">6 Cars</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="https://openui.fly.dev/openui/24x24.svg?text=Cadillac"
+              alt="Cadillac"
+              className="h-12 w-12"
+            />
+            <span className="text-muted-foreground">3 Cars</span>
+          </div>
+        </div>
+      </div>
+
+
+{/* 3############################ */}
   {/* Header Ends Here */}
   {/* FancyBox Image Gallery */}
   <link
@@ -4872,14 +5048,14 @@ function App() {
           <li>
             <a
               aria-label="Home"
-              href="https://www.fastercars.ae"
+              // href="https://www.fastercars.ae"
               className="fa fa-home"
             />
           </li>
           <li>
             <a
               aria-label=""
-              href="https://www.fastercars.ae/infiniti-rental-dubai/"
+              // href="https://www.fastercars.ae/infiniti-rental-dubai/"
             >
               Infiniti
             </a>
@@ -4887,7 +5063,7 @@ function App() {
           <li>
             <a
               aria-label=""
-              href="https://www.fastercars.ae/car/infiniti-qx80-rental/"
+              // href="/car/infiniti-qx80-rental/"
             >
               Infiniti QX80
             </a>
@@ -4910,8 +5086,8 @@ function App() {
               <div
                 className="swiper-slide"
                 data-fancybox="gallery"
-                data-thumb="https://www.fastercars.ae/uploads/1716386685INFINITI QX80 - YELLOW + BLACK - 2022 - H 32674.webp"
-                data-src="https://www.fastercars.ae/uploads/1716386685INFINITI QX80 - YELLOW + BLACK - 2022 - H 32674.webp"
+                data-thumb="/uploads/1716386685INFINITI QX80 - YELLOW + BLACK - 2022 - H 32674.webp"
+                data-src="/uploads/1716386685INFINITI QX80 - YELLOW + BLACK - 2022 - H 32674.webp"
               >
                 <img
                   loading="lazy"
@@ -5533,7 +5709,7 @@ function App() {
                       </div>
                       <div className="googlerating">
                         <svg className="svgicon star-icon  active">
-                          <use xlinkHref="#star-icon" />
+                          <use xlink="#star-icon" />
                         </svg>
                         {/*  <i class="fa-solid fa-star  active"></i> */}
                         <svg className="svgicon star-icon  active">

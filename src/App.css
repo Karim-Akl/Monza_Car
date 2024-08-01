@@ -1,3 +1,98 @@
+/* ############################ */
+.image-paner {
+  width: 80%;
+  margin: auto;
+  background-color: var(--bodyBG);
+  border-radius: 20px;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-paner.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.gap-4 {
+  gap: 0.5rem; /* 16px */
+}
+
+.p-4 {
+  padding: 1rem; /* 16px */
+}
+
+.w-12 {
+  width: 3rem; /* 48px */
+}
+
+.h-12 {
+  height: 3rem; /* 48px */
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* ################## */
+@media (width < 1700px){
+  header .bg-search{
+    min-width: 400px !important;
+    margin: auto;
+  }
+
+}
+
+@media (width < 1220px){
+  ul.ul-par{
+    display: none !important;
+  }
+  .icon-menu{
+  display: block; 
+  }
+}
+@media (width < 1000px){
+  header .cont-phone{
+    display: none !important;
+  }
+  header .bg-search{
+    min-width: 80% !important;
+  }
+  header .header-class-bg{
+    flex-direction: column-reverse;
+  }
+
+}
+
+
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -1115,7 +1210,7 @@ header {
   background-repeat: no-repeat;
   background-position: center -100px;
   background-size: cover;
-  /* background-image: url("../images/main-banner-img.webp"); */
+  background-image: url("../public/1690387937Cadillac-Escalade-Black-front-side.webp");
 }
 
 .mpslider .container {
@@ -1358,14 +1453,14 @@ header {
 }
 
 .fstagline:before {
-  /* content: url(../images/flashicon.svg); */
+  content: url(../public/1690387937Cadillac-Escalade-Black-front-side.webp);
   width: 9px;
   display: inline-block;
   margin-right: 12px;
 }
 
 .fstagline:after {
-  /* content: url(../images/flashicon.svg); */
+  content: url(../public/1690387937Cadillac-Escalade-Black-front-side.webp);
   width: 9px;
   display: inline-block;
   margin-left: 12px;
@@ -5725,13 +5820,13 @@ input#fieldstyle:focus {
 }
 
 .thanyousec:after {
-  /* content: url("../images/patternbg.svg"); */
+  content: url("../public/1690387937Cadillac-Escalade-Black-front-side.webp");
   position: absolute;
   right: 0px;
 }
 
 .thanyousec:before {
-  /* content: url("../images/patternbg.svg"); */
+  content: url("../public/1690387937Cadillac-Escalade-Black-front-side.webp");
   position: absolute;
   left: 0px;
   transform: rotate(180deg);

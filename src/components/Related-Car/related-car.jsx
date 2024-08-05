@@ -202,7 +202,7 @@ const RelatedCar = () => {
                       <ul className="carthumb-cta">
                         <li>
                           <a
-                            href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infinity-qx80-black"
+                            href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infinity-qx80-black"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
@@ -216,7 +216,7 @@ const RelatedCar = () => {
                         {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infinity-qx80-black" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
                         <li>
                           <a
-                            href="tel:+971502299948"
+                            href="tel:+12345678910"
                 target="_blank" rel="noreferrer"
 
                             aria-label="Call Us Inquiry"
@@ -437,7 +437,7 @@ const RelatedCar = () => {
                       <ul className="carthumb-cta">
                         <li>
                           <a
-                            href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Orange Blue%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-modified"
+                            href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Orange Blue%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-modified"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
@@ -451,7 +451,7 @@ const RelatedCar = () => {
                         {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Orange Blue%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-modified" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
                         <li>
                           <a
-                            href="tel:+971502299948"
+                            href="tel:+12345678910"
                             aria-label="Call Us Inquiry"
                           >
                             <svg className="svgicon phone-icon">
@@ -678,7 +678,7 @@ flashsalethumb
                       <ul className="carthumb-cta">
                         <li>
                           <a
-                            href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black Hawk%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk"
+                            href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black Hawk%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
@@ -692,7 +692,7 @@ flashsalethumb
                         {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Black Hawk%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
                         <li>
                           <a
-                            href="tel:+971502299948"
+                            href="tel:+12345678910"
                             aria-label="Call Us Inquiry"
                           >
                             <svg className="svgicon phone-icon">

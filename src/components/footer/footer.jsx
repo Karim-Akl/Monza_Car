@@ -149,7 +149,7 @@ const Footer = () => {
                 <p>© 2024 All Rights Reserved.</p>
                 <span>
                   Design & Developed   By
-                  <a aria-label="Developers" target="_blank" rel="noreferrer" href="#" style={{ color: "red" }}>
+                  <a aria-label="Developers" target="_blank" rel="noreferrer" href="https://moneyleek.online" style={{ color: "red" }}>
                          _MoneyLeek
                   </a>
                 </span>

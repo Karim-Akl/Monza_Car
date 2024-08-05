@@ -92,7 +92,7 @@ const Socal = () => {
   <span>WhatsApp</span>
 </a> */}
       <a
-        href="/"
+        href="#!"
         aria-label="WhatsApp Inquiry"
         target="_blank"
         rel="noreferrer"
@@ -110,7 +110,7 @@ const Socal = () => {
   <icon><svg class="svgicon phone-icon"><use xlink:href="#phone-icon"></use></svg></icon>
   <span>Call Us</span>
 </a> */}
-      <a href="tel:+201093378681" aria-label="Call Us Inquiry">
+      <a href="tel:+12345678" aria-label="Call Us Inquiry">
         <icon>
           <svg className="svgicon phone-icon">
             <use xlinkHref="#phone-icon" />

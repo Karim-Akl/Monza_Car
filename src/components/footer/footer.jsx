@@ -94,7 +94,7 @@ const Footer = () => {
                   <svg className="svgicon phone-icon">
                     <use xlinkHref="#phone-icon" />
                   </svg>
-                  <a aria-label="Phone Number" href="tel:+20123456789">
+                  <a aria-label="Phone Number" href="tel:+12345678">
                     +123456789
                   </a>
                 </p>
@@ -106,7 +106,7 @@ const Footer = () => {
                     aria-label="WhatsApp"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://api.whatsapp.com/send?phone=+201093378681&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
+                    href="https://api.whatsapp.com/send?phone=+12345678&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
                   >
                     +123456789
                   </a>

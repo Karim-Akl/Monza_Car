@@ -16,8 +16,8 @@ const Header = () => {
                   <use xlinkHref="#phone-icon" />
                 </svg>
               </icon>
-              <a aria-label="" href="tel:+201093378681">
-                +201093378681
+              <a aria-label="" href="#!">
+                +12345678910
               </a>
             </li>
             {/* <li><icon><svg class="svgicon phone-icon"><use xlink:href="#phone-icon"></use></svg></icon><a aria-label="" class="convcall-pop" href="javascript:void(0)" data-href="tel:+971502299948">+971 50 229 9948</a></li> */}
@@ -30,9 +30,9 @@ const Header = () => {
               <a
                 target="_blank"  rel="noreferrer"  
                 aria-label=""
-                href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
+                href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
               >
-                +201093378681
+                +12345678910
               </a>
             </li>
             {/* <li><icon><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg></icon><a target="_self" aria-label="" class="convwhatsapp-pop" href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi,&nbsp;I'm&nbsp;contacting&nbsp;you&nbsp;through&nbsp;fastercars.ae&nbsp;I'd&nbsp;like&nbsp;to&nbsp;inquire&nbsp;about&nbsp;a&nbsp;car&nbsp;listed&nbsp;on&nbsp;your&nbsp;website">+971 50 229 9948</a></li> */}

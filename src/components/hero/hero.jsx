@@ -344,7 +344,7 @@ const Hero = () => {
           <ul className="carthumb-cta">
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified"
+                href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified"
                 target="_blank" rel="noreferrer"
                 aria-label="WhatsApp Inquiry"
               >
@@ -354,9 +354,9 @@ const Hero = () => {
                 WhatsApp
               </a>
             </li>
-            {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
+            {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+12345678910&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
             <li>
-              <a href="tel:+971502299948" aria-label="Call Us Inquiry" 
+              <a href="tel:+12345678910" aria-label="Call Us Inquiry" 
                 target="_blank" rel="noreferrer"
                 >
                 
@@ -366,7 +366,7 @@ const Hero = () => {
                 Call Us
               </a>
             </li>
-            {/* <li><a href="javascript:void(0)" data-href="tel:+971502299948" aria-label="Call Us Inquiry" target="_self" class="convcall-pop"><svg class="svgicon phone-icon"><use xlink:href="#phone-icon"></use></svg>Call Us</a></li> */}
+            {/* <li><a href="javascript:void(0)" data-href="tel:+12345678910" aria-label="Call Us Inquiry" target="_self" class="convcall-pop"><svg class="svgicon phone-icon"><use xlink:href="#phone-icon"></use></svg>Call Us</a></li> */}
             <li>
               <button
                 data-url="https://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified"

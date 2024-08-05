@@ -24,7 +24,7 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                              href="#!"
                 target="_blank" rel="noreferrer"
 
                             >
@@ -42,7 +42,7 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                              href="#!"
                 target="_blank" rel="noreferrer"
 
                             >
@@ -60,7 +60,7 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                              href="#!"
                 target="_blank" rel="noreferrer"
 
                             >
@@ -111,7 +111,8 @@ const RelatedCar = () => {
                       <div className="thumbtitle">
                         <a
                           aria-label=""
-                          href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
+                          href="#!"
+
                 target="_blank" rel=" noreferrer"
 
                         >
@@ -258,7 +259,7 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
+                              href="#!"
                 target="_blank" rel="noreferrer"
 
                             >
@@ -276,7 +277,7 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
+                              href="#!"
                             >
                               <img
                                 className="mainimg"
@@ -292,7 +293,8 @@ const RelatedCar = () => {
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
+                              href="#!"
+
                             >
                               <img
                                 className="mainimg"
@@ -341,7 +343,7 @@ const RelatedCar = () => {
                       <div className="thumbtitle">
                         <a
                           aria-label=""
-                          href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
+                          href="#!"
                         >
                           <h3>Infiniti Qx80 Orange Blue</h3>
                         </a>
@@ -492,7 +494,7 @@ flashsalethumb
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
+                              href="#!"
                             >
                               <img
                                 className="mainimg"
@@ -508,7 +510,7 @@ flashsalethumb
                           <div className="slide">
                             <a
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
+                              href="#!"
                 target="_blank" rel="noreferrer"
 
 
@@ -527,8 +529,8 @@ flashsalethumb
                           </div>
                           <div className="slide">
                             <a
+                              href="#!"
                               aria-label="Detail Page Link"
-                              href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
                 target="_blank" rel="noreferrer"
 
                             >
@@ -578,8 +580,8 @@ flashsalethumb
                     <div className="ctdtailcont">
                       <div className="thumbtitle">
                         <a
+                              href="#!"
                           aria-label=""
-                          href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
                         >
                           <h3>Infiniti Qx80 Black Hawk</h3>
                         </a>

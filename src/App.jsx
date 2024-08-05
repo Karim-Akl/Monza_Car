@@ -503,7 +503,7 @@ function App() {
           </symbol>
         </svg>
             {/* ############################    Component img-bar    ############################ */}
-            <div className=" class-img-bar">
+            <div className=" class-img-bar container">
               <a href="#!">
                 <img src="/videobannermonthly.webp" alt="" />
               </a>

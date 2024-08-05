@@ -28,7 +28,7 @@ const Header = () => {
                 </svg>
               </icon>
               <a
-                target="_blank"
+                target="_blank"  rel="noreferrer"  
                 aria-label=""
                 href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
               >

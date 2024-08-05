@@ -345,7 +345,7 @@ const Hero = () => {
             <li>
               <a
                 href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
                 aria-label="WhatsApp Inquiry"
               >
                 <svg className="svgicon whatsapp-icon">
@@ -357,7 +357,7 @@ const Hero = () => {
             {/* <li><a href="javascript:void(0)" data-href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I&#039;m contacting you through fastercars.ae. I&#039;d like to inquire about %22Infiniti Qx80 Yellow Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-yellow-modified" target="_self" aria-label="WhatsApp Inquiry" class="convwhatsapp-pop"><svg class="svgicon whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg>WhatsApp</a></li> */}
             <li>
               <a href="tel:+971502299948" aria-label="Call Us Inquiry" 
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
                 >
                 
                 <svg className="svgicon phone-icon">

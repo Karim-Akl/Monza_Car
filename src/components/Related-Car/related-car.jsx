@@ -25,7 +25,7 @@ const RelatedCar = () => {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             >
                               <img
@@ -43,7 +43,7 @@ const RelatedCar = () => {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             >
                               <img
@@ -61,7 +61,7 @@ const RelatedCar = () => {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             >
                               <img
@@ -112,7 +112,7 @@ const RelatedCar = () => {
                         <a
                           aria-label=""
                           href="https://www.fastercars.ae/car-detail/infinity-qx80-black/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel=" noreferrer"
 
                         >
                           <h3>Infiniti Qx80 Black</h3>
@@ -204,6 +204,7 @@ const RelatedCar = () => {
                           <a
                             href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black%22%20%0Ahttps://www.fastercars.ae/car-detail/infinity-qx80-black"
                             target="_blank"
+                            rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
                           >
                             <svg className="svgicon whatsapp-icon">
@@ -216,7 +217,7 @@ const RelatedCar = () => {
                         <li>
                           <a
                             href="tel:+971502299948"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             aria-label="Call Us Inquiry"
                           >
@@ -258,7 +259,7 @@ const RelatedCar = () => {
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-modified/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             >
                               <img
@@ -438,6 +439,7 @@ const RelatedCar = () => {
                           <a
                             href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Orange Blue%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-modified"
                             target="_blank"
+                            rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
                           >
                             <svg className="svgicon whatsapp-icon">
@@ -507,7 +509,7 @@ flashsalethumb
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
 
                             >
@@ -527,7 +529,7 @@ flashsalethumb
                             <a
                               aria-label="Detail Page Link"
                               href="https://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noreferrer"
 
                             >
                               <img
@@ -678,6 +680,7 @@ flashsalethumb
                           <a
                             href="https://api.whatsapp.com/send?phone=+971502299948&text=Hi, I'm contacting you through fastercars.ae. I'd like to inquire about %22Infiniti Qx80 Black Hawk%22%20%0Ahttps://www.fastercars.ae/car-detail/infiniti-qx80-black-hawk"
                             target="_blank"
+                            rel="noreferrer"
                             aria-label="WhatsApp Inquiry"
                           >
                             <svg className="svgicon whatsapp-icon">

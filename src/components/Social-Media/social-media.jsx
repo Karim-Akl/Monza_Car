@@ -10,6 +10,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="Facebook"
+      rel="noreferrer"
     >
       <svg className="svgicon facebook-icon">
         <use xlinkHref="#facebook-icon" />
@@ -19,6 +20,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="LinkedIn"
+      rel="noreferrer"
     >
       <svg className="svgicon linkedin-icon">
         <use xlinkHref="#linkedin-icon" />
@@ -28,6 +30,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="Instagram"
+      rel="noreferrer"
     >
       <svg className="svgicon instagram-icon">
         <use xlinkHref="#instagram-icon" />
@@ -37,6 +40,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="Twitter"
+      rel="noreferrer"
     >
       <svg className="svgicon twitter-icon">
         <use xlinkHref="#twitter-icon" />
@@ -46,6 +50,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="TikTok"
+      rel="noreferrer"
     >
       <svg className="svgicon tiktok-icon">
         <use xlinkHref="#tiktok-icon" />
@@ -55,6 +60,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="YouTube"
+      rel="noreferrer"
     >
       <svg className="svgicon youtube-icon">
         <use xlinkHref="#youtube-icon" />
@@ -64,6 +70,7 @@ const Socal = () => {
       href="/"
       target="_blank"
       aria-label="Pinterest"
+      rel="noreferrer"
     >
       <svg className="svgicon pinterest-icon">
         <use xlinkHref="#pinterest-icon" />
@@ -88,6 +95,7 @@ const Socal = () => {
         href="/"
         aria-label="WhatsApp Inquiry"
         target="_blank"
+        rel="noreferrer"
       >
         <icon>
           <svg className="svgicon whatsapp-icon">

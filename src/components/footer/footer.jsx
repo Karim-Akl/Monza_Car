@@ -86,7 +86,7 @@ const Footer = () => {
                   <svg className="svgicon loc-icon">
                     <use xlinkHref="#loc-icon" />
                   </svg>
-                  <a aria-label="Location" target="_blank" rel="noopener noreferrer" href="#!">
+                  <a aria-label="Location" target="_blank" rel="noreferrer" href="#!">
                     Rose 2 – 17a St – Dubai, Al Barsha, Sheikh Zayed Road, United Arab Emirates.
                   </a>
                 </p>
@@ -105,7 +105,7 @@ const Footer = () => {
                   <a
                     aria-label="WhatsApp"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
                     href="https://api.whatsapp.com/send?phone=+201093378681&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
                   >
                     +123456789
@@ -136,7 +136,7 @@ const Footer = () => {
                     { href: "#!", label: "YouTube", icon: "youtube-icon" },
                     { href: "#!", label: "Pinterest", icon: "pinterest-icon" },
                   ].map((social, index) => (
-                    <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.label}>
+                    <a key={index} href={social.href} target="_blank" rel="noreferrer" aria-label={social.label}>
                       <svg className={`svgicon ${social.icon}`}>
                         <use xlinkHref={`#${social.icon}`} />
                       </svg>
@@ -149,7 +149,7 @@ const Footer = () => {
                 <p>© 2024 All Rights Reserved.</p>
                 <span>
                   Design & Developed   By
-                  <a aria-label="Developers" target="_blank" rel="noopener noreferrer" href="#" style={{ color: "red" }}>
+                  <a aria-label="Developers" target="_blank" rel="noreferrer" href="#" style={{ color: "red" }}>
                          _MoneyLeek
                   </a>
                 </span>

@@ -257,13 +257,16 @@ function App() {
           className="call-btn-action"
           target="_blank"
           href="tel:+201093378681"
+          rel="noreferrer"
+
         />
         {/* Conversion Call Popup */}
         {/* WhatsApp Icon Desktop */}
         <a
           href="https://api.whatsapp.com/send?phone=+201093378681&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
           className="whatsppicodesk"
-          target="_blank"
+          target="_blank"  rel="noreferrer"
+          
           aria-label="WhatsApp Inquiry"
         >
           <svg className="svgicon whatsapp-icon">

@@ -16,7 +16,27 @@
   opacity: 1;
   pointer-events: auto;
 }
+            /* {/############################    Component img-bar    ############################ } */
 
+.class-img-bar{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.class-img-bar a{
+  width: 100%;
+
+}
+.class-img-bar img{
+  width: 100%;
+  height: 200px;
+  margin: auto; 
+  border-radius: 10px !important;
+}
+            /* {############################    Component img-bar    ############################} */
 
 .grid {
   display: grid;
@@ -631,7 +651,7 @@ button {
 }
 
 #closebtnmobmenu {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 20000;
   color: #f05c07;
@@ -807,6 +827,7 @@ header {
 .hdr-botm>a {
   flex: 0 0 15%;
   max-width: 15%;
+  
 }
 
 .logo {

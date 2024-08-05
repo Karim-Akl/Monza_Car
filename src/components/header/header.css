@@ -1,0 +1,5 @@
+.hdrtp-lft {
+  display: flex;
+  align-items: stretch !important;
+  margin-top: -13px;
+}

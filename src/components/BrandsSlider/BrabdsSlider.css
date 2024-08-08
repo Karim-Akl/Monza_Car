@@ -1,0 +1,81 @@
+.brand-1{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  color: black;
+  width:99px ;
+  height: 110px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #e1e1e1;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+.brand-1 p{
+  color: black;
+}
+.brand-1 p:last-child{
+  color: rgba(0, 0, 0, 0.467);
+}
+.brand-1 img{
+  width:60px;
+  height: 60px;
+  
+}
+.bg-class-sliders{
+  margin-top: 50px;
+}
+
+/* BrabdsSlider.css */
+
+/* النمط الأساسي للسلايدر */
+.bg-class-sliders {
+  width: 100%;
+  padding: 10px;
+}
+
+.brand-1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.brand-1 img {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* تغيير الحجم حسب الحاجة */
+}
+
+/* استايلات الشاشات الصغيرة */
+@media (max-width: 1200px) {
+  .swiper-slide {
+    flex: 0 0 20%; /* تعديل عدد السلايدات المعروضة */
+  }
+}
+
+@media (max-width: 992px) {
+  .swiper-slide {
+    flex: 0 0 25%; /* تعديل عدد السلايدات المعروضة */
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    flex: 0 0 33.33%; /* تعديل عدد السلايدات المعروضة */
+  }
+}
+
+@media (max-width: 576px) {
+  .swiper-slide {
+    flex: 0 0 50%; /* تعديل عدد السلايدات المعروضة */
+  }
+}

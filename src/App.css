@@ -1,6 +1,99 @@
+
+/* *{
+  border: RED solid 1PX;
+} */
+/* @media (max-width: 768px) {
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+} */
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+
+  background-color: #d4d4d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scrollbar-color: #9e4673 #3d4a59;
+  scroll-behavior: smooth;
+
+}
+
+.scroll2Top {
+  background-color: #f05c07 !important;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 40%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: x-large;
+  color: #000;
+  text-align: center;
+  z-index: 100;
+}
+.scroll2Top{
+
+  opacity: 1;
+  background-color:red;
+
+}
+
+
+@media (min-width: 600px){
+  .scroll2Top{
+  background-color: var(--secondary);
+  }
+
+
+}
+@media (max-width: 600px) {
+
+  .scroll2Top {
+    width: 2.2rem;
+    height: 2.2rem;
+    opacity: 0.6;
+  }
+
+}
+
+
+@media (max-width: 1600px) {
+.navwrap li{
+  font-size: smaller !important;
+}
+}
 /* ############################ */
 .image-paner {
-  width: 80%;
+  width: 80% !important;
   margin: auto;
   background-color: var(--bodyBG);
   border-radius: 20px;
@@ -19,12 +112,15 @@
             /* {/############################    Component img-bar    ############################ } */
 
 .class-img-bar{
-  width: 100%;
+  width: 80%;
   height: auto;
   margin: auto;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px !important;
+  
 }
 .class-img-bar a{
   width: 100%;
@@ -35,6 +131,9 @@
   height: 200px;
   margin: auto; 
   border-radius: 10px !important;
+  margin: auto;
+  
+  
 }
             /* {############################    Component img-bar    ############################} */
 
@@ -131,7 +230,7 @@
   height: 20px;
 }
 .navwrap li {
- display:none !important;
+ /* display:none !important; */
 }
 .ham-menu {
  display:none !important;

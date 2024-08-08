@@ -6,12 +6,37 @@ import SocalMedia from "./components/Social-Media/social-media.jsx";
 import Hero from "./components/hero/hero";
 import Nav from "./components/nav/nav";
 import ListCar from "./components/listcar/listcar";
-import { Link } from "react-router-dom";
+import FasterCar from "./components/FasterCar/FasterCar";
+import Main from "./components/main/main.jsx";
+import BrandsSlider from "./components/BrandsSlider/BrandsSlider.jsx";
+import { useEffect, useState } from "react";
 import "./App.css";
 function App() {
+  const [state, setState] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setState(true);
+      } else {
+        setState(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    
+    // تنظيف المستمع عند فك التثبيت
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="App">
       <>
+      {/* عنصر فارغ في أعلى الصفحة للتمرير إليه */}
+      <div id="up"></div>
+
+
         {/* ############################    Component Header Start   ############################ */}
 
         <Header />
@@ -30,11 +55,20 @@ function App() {
         {/*  Page Title and Breadcrumbs Starts */}
         {/* ############################    Component Nav Start   ############################ */}
 
-        <Nav />
+        {/* <Nav /> */}
+        {/* ****************************    Component Nav  End   **************************** */}
+
+
+        {/* ############################    Component Main Start   ############################ */}
+        <Main/>
+        {/* ****************************    Component Main  End   **************************** */}
 
         {/* ****************************    Component Nav  End   **************************** */}
 
         <ListCar />
+        <BrandsSlider/>
+
+        
 
         {/* Car Detials Start Section Starts */}
         <div className="cardtailsec padd-top padd-botm">
@@ -51,7 +85,7 @@ function App() {
             {/* ****************************    Component Header End   **************************** */}
 
             {/* ############################    Component img-bar    ############################ */}
-            <div className="class-img-bar">
+            <div className="class-img-bar container">
               <a href="#!">
                 <img src="/videobannermonthly.webp" alt="" />
               </a>
@@ -63,6 +97,13 @@ function App() {
             <RelatedCar />
 
             {/* ****************************    Component Related Car End   **************************** */}
+            {/* ############################    Component img-bar    ############################ */}
+            <div className=" class-img-bar container">
+              <a href="#!">
+                <img src="/1722177371videobannerchauffeurservice.webp" alt="" />
+              </a>
+            </div>
+            {/* ****************************    Component img-bar End   **************************** */}
           </div>
         </div>
 
@@ -258,15 +299,14 @@ function App() {
           target="_blank"
           href="tel:+201093378681"
           rel="noreferrer"
-
         />
         {/* Conversion Call Popup */}
         {/* WhatsApp Icon Desktop */}
         <a
           href="https://api.whatsapp.com/send?phone=+201093378681&text=Hi, I'm contacting you through fastercars.ae I'd like to inquire about a car listed on your website"
           className="whatsppicodesk"
-          target="_blank"  rel="noreferrer"
-          
+          target="_blank"
+          rel="noreferrer"
           aria-label="WhatsApp Inquiry"
         >
           <svg className="svgicon whatsapp-icon">
@@ -502,16 +542,28 @@ function App() {
             <path d="M379.69 65.19c53.86 0 97.52 43.66 97.52 97.53 0 53.86-43.66 97.52-97.52 97.52-53.87 0-97.53-43.66-97.53-97.52 0-53.87 43.66-97.53 97.53-97.53zM11.49 0h488.84C506.78 0 512 5.23 512 11.68c0 3.53-1.53 6.76-4.15 8.91L463.4 77.07a119.922 119.922 0 0 0-19.22-15.3L471.9 23.2l.16.15H39.29l158.23 192.38c2.45 2.15 3.99 5.23 3.99 8.76v204.79l87.73-40.1V241.24c6.88 7.92 14.79 14.92 23.51 20.81v133.89c0 4.61-2.61 8.6-6.61 10.44l-110.31 53.16c-5.53 3.22-12.6 1.38-15.83-4.31-1.07-1.84-1.53-3.83-1.53-5.83V229.25L3.34 19.82a11.791 11.791 0 0 1 0-16.44C5.65 1.08 8.57 0 11.49 0zm318.73 177.82c-13.25-14.26 7.1-35.5 21.83-22.05 5.2 4.74 8.98 10.89 14.23 15.59l40.39-49.63c14.06-14.54 36.26 6.81 22.38 21.44l-50.74 60.53a15.59 15.59 0 0 1-11.31 4.86c-3.8 0-7.54-1.31-10.31-3.9-8.67-8.11-17.45-19.2-26.47-26.84z"></path>
           </symbol>
         </svg>
-            {/* ############################    Component img-bar    ############################ */}
-            <div className=" class-img-bar container">
-              <a href="#!">
-                <img src="/1722177371videobannerchauffeurservice.webp" alt="" />
-              </a>
-            </div>
-            {/* ****************************    Component img-bar End   **************************** */}
+        {/* ############################    Component FasterCar    ############################ */}
+        <FasterCar />
+        {/* ****************************    Component FasterCar End   **************************** */}
 
+        {/* ############################    Component img-bar    ############################ */}
+        <div className="class-img-bar">
+          <a href="#!">
+            <img src="/1722177461videobanneronlyfaster.webp" alt="" />
+          </a>
+        </div>
+        {/* ****************************    Component img-bar End   **************************** */}
+        <div>
+          <a
+            href="#up"
+            style={{ opacity: state ? 1 : 0, transition: "opacity 0.3s" }}
+          >
+            <button className="icon-angle-double-up  scroll2Top">
+              ^
+            </button>
+          </a>
+        </div>
         {/* ############################    Component Footer    ############################ */}
-
         <Footer />
         {/* ****************************    Component Footer End   **************************** */}
       </>

@@ -111,7 +111,10 @@ const Listcar = () => {
       </div>
       <div className="more-car">
         <button onClick={handleViewMore}>
-          {showMore ? "View Less" : "View More"} ^
+          
+          {showMore ? "View Less" : "View More"}<svg className="svgicon angle-icon">
+                <use xlinkHref="#angle-icon" />
+              </svg>
         </button>
       </div>
     </div>

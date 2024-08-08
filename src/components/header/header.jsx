@@ -73,7 +73,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-mall-of-emirates">
+                        <a href="#!">
                           Mall of The Emirates
                         </a>
                       </li>
@@ -83,47 +83,56 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-dubai-marina">
+                      <a href="#!">
+
                           Dubai Marina
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-international-city">
+                      <a href="#!">
+
                           International City
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-shaikh-zayed-road">
+                      <a href="#!">
+
                           Sheikh Zayed Road
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-palm-jumeriah">
+                      <a href="#!">
+
                           Palm Jumeirah
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-dubai-airport">
+                      <a href="#!">
+
                           Dubai International Airport
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-jumeirah-lake-towers">
+                      <a href="#!">
+
                           JLT (Jumeirah Lake Towers)
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-al-quoz">
+                      <a href="#!">
+
                           Al Quoz
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/rent-a-car-deira">
+                      <a href="#!">
+
                           Deira
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/nissan-patrol/">
+                      <a href="#!">
+
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -137,7 +146,8 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/ford-mustang-blue-orange/">
+                      <a href="#!">
+
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -151,7 +161,8 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/nissan-nismo-silver-tiffany/">
+                      <a href="#!">
+
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -165,7 +176,8 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/infiniti-qx80-maroon/">
+                      <a href="#!">
+
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -2698,7 +2710,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/mercedes-benz-c200-convertible/">
+                        <a href="#!">
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -3664,7 +3676,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li style={{ display: "none" }}>
-                        <a href="https://www.fastercars.ae/car-detail/chevrolet-traverse-silver/">
+                        <a href="#!">
                           <img
                             style={{ display: "none" }}
                             loading="lazy"
@@ -3883,7 +3895,9 @@ const Header = () => {
         </div>
       </div>
     </div>
-    {/* Header Topbar */}
+
+  {/* !!!!!!!!!!       Header Topbar     ############################################# */}
+
     <div className="hdr-botm">
       <div className="container">
         <div className="hdrbtm-wrap flexrow"
@@ -3892,10 +3906,15 @@ const Header = () => {
             <a href="/"><img src="/logo.png"  width={154} height={70} alt="" />
             </a>
           </div>
+
+          
           <ul className="navwrap">
             <li className="">
               <a href="/">Home</a>
             </li>
+
+{/* !!!!!!!!!!     All Brands       ############################################# */}
+
             <li id="brandsdrpd" className="">
               <span className='icon-close'>All Brands</span>
               <svg className="svgicon angle-icon">
@@ -3903,7 +3922,7 @@ const Header = () => {
               </svg>
               <ul className="submenubrands brandswrap">
                 <li>
-                  <a href="/">
+                  <a href="#!">
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084370logo-nissan.webp"
@@ -3919,7 +3938,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/chevrolet-rental-dubai/">
+                  <a href="#!">
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084552logo-chev.webp"
@@ -3935,7 +3954,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/ford-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084589logo-ford.webp"
@@ -3951,7 +3971,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/dodge-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084333logo-dodge.webp"
@@ -3967,7 +3988,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/mercedes-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084388logo-mercides.webp"
@@ -3983,7 +4005,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/car/mini-cooper-rental/">
+                  <a href="#!">
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084508logo-mini.webp"
@@ -3999,7 +4021,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/bmw-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084415logo-bmw.webp"
@@ -4015,7 +4038,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/audi-rental-dubai/">
+                  <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084404logo-audi.webp"
@@ -4031,7 +4055,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/infiniti-rental-dubai/">
+                  <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084630infiniti-logo.webp"
@@ -4047,7 +4072,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/range-rover-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084439logo-rangerover.webp"
@@ -4063,7 +4089,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/lamborghini-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696083490logo-lambo.webp"
@@ -4079,7 +4106,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/ferrari-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084306logo-ferari.webp"
@@ -4095,7 +4123,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/rolls-royce-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084022logo-rolls.webp"
@@ -4111,7 +4140,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/porsche-rental-dubai/">
+
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084429logo-porsch.webp"
@@ -4127,7 +4158,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/bentley-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084519logo-bantly.webp"
@@ -4143,7 +4175,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/cadillac-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084542logo-cadilak.webp"
@@ -4159,7 +4192,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/mclaren-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084724logo-maclren.webp"
@@ -4175,7 +4209,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/corvette-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084579logo-corvet.webp"
@@ -4191,7 +4226,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/chrysler-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084566chrysler-brand.webp"
@@ -4207,7 +4243,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/jeep-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084674logo-jeep.webp"
@@ -4223,7 +4260,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/jaguar-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084663logo-jag.webp"
@@ -4239,7 +4277,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/gmc-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084600logo-gmc.webp"
@@ -4255,7 +4294,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/lexus-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084695logo-lexuis.webp"
@@ -4271,7 +4311,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/volkswagen/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084734logo-volswegan.webp"
@@ -4287,7 +4328,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/mazda-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084715logo-mazda.webp"
@@ -4303,7 +4345,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/hyundai-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084618logo-hundiy.webp"
@@ -4319,7 +4362,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/maserati-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1696084704logo-mazarati.webp"
@@ -4335,7 +4379,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/toyota-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1702293676toyota.webp"
@@ -4351,7 +4396,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/tesla-rental-dubai/">
+                <a href="#!">
+
                     <img
                       loading="lazy"
                       src="https://www.fastercars.ae/uploads/1719754992teslalogo.webp"
@@ -4369,10 +4415,13 @@ const Header = () => {
               </ul>
             </li>
             <li className="">
-              <a href="https://www.fastercars.ae/special-offers/">
+            <a href="#!">
+
                 Special Offers
               </a>
             </li>
+{/* !!!!!!!!!!            ############################################# */}
+            
             <li id="fleetdrpd" className="">
               <span>Categories</span>
               <svg className="svgicon angle-icon">
@@ -4380,7 +4429,7 @@ const Header = () => {
               </svg>
               <ul className="submenufleet">
                 <li>
-                  <a href="https://www.fastercars.ae/modified-car-rental/">
+                  <a href="#!">
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4388,7 +4437,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/suv-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4396,7 +4446,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/convertible-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4404,7 +4455,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/economy-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4412,7 +4464,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/sports-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4420,7 +4473,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/luxury-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4428,7 +4482,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/monthly-car-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4436,7 +4491,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/safe-driver-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4444,7 +4500,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/hourly-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4452,7 +4509,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/weekly-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4460,7 +4518,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/daily-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4468,7 +4527,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/long-term-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4476,7 +4536,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/muscle-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4484,7 +4545,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/airport-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4492,7 +4554,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/business-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4500,7 +4563,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/7-seater-car-rental/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4508,7 +4572,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/yachts-rental-dubai/">
+                <a href="#!">
+
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4516,7 +4581,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.fastercars.ae/electric-car-rental/">
+                  <a href="#!">
                     <svg className="svgicon angle-icon">
                       <use xlinkHref="#angle-icon" />
                     </svg>
@@ -4525,15 +4590,19 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            <li id="loctionsdrpd" className="">
+
+
+{/* !!!!!!!!!!            ############################################# */}
+
+            <li id="loctionsdrpd" className="" >
               <span>Locations</span>
               <svg className="svgicon angle-icon">
                 <use xlinkHref="#angle-icon" />
               </svg>
               <div className="submenuloc">
-                <ul>
+                <ul style={{width:"100%"}}>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-al-barsha/">
+                    <a href="#!">
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4541,7 +4610,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-dubai-mall/">
+                  <a href="#!">
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4549,7 +4618,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-mall-of-emirates/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4557,7 +4627,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-business-bay/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4565,7 +4636,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-dubai-marina/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4573,7 +4645,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-international-city/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4581,7 +4654,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-shaikh-zayed-road/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4589,7 +4663,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-palm-jumeriah/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4597,7 +4672,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-dubai-airport/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4605,7 +4681,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-jumeirah-lake-towers/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4613,7 +4690,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-al-quoz/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4621,7 +4699,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.fastercars.ae/rent-a-car-deira/">
+                  <a href="#!">
+
                       <svg className="svgicon angle-icon">
                         <use xlinkHref="#angle-icon" />
                       </svg>
@@ -4629,16 +4708,9 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-                <img
-                  loading="lazy"
-                  src="https://www.fastercars.ae/public/assets/images/locationdropdownimage.webp"
-                  width={275}
-                  height={469}
-                  alt=""
-                  title=""
-                />
               </div>
             </li>
+
             <li className="">
               <a href="/">About Us</a>
             </li>
@@ -4652,40 +4724,40 @@ const Header = () => {
               </svg>
               <ul className="servcdropd">
                 <li>
-                  <a href="/">
+                  <a href="#!">
                     Yacht Charter Service
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#!">
                     Limousine Service
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#!">
                     Helicopter Tour Service
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#!">
                     Desert Safari Service
                   </a>
                 </li>
               </ul>
             </li>
             <li className="showonlymobile">
-              <a href="/">All Cars</a>
+              <a href="#!">All Cars</a>
             </li>
             <li className="showonlymobile">
-              <a href="/">FAQ'S</a>
+              <a href="#!">FAQ'S</a>
             </li>
             <li className="showonlymobile">
-              <a href="/">
+              <a href="#!">
                 Terms and Conditions
               </a>
             </li>
             <li>
-              <a href="/">Contact Us</a>
+              <a href="#!">Contact Us</a>
             </li>
             {/* Mobile Menu Close Icon */}
             <li id="closebtnmobmenu">
@@ -4695,7 +4767,7 @@ const Header = () => {
             {/* Mobile Menu Close Icon */}
           </ul>
           {/* Hamburger Mobile */}
-          <div className="ham-menu">
+          <div className="icon-menu">
             <span className="line line1" ></span>
             <span className="line line2" />
             <span className="line line3" />
